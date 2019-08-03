@@ -8,44 +8,44 @@
  */
 
 .hidden {
-	display: none;
+   display: none;
 }
 .mr-15 {
-	margin-left: -15px;
-	margin-right: -15px;
+   margin-left: -15px;
+   margin-right: -15px;
 }
 .mr-10 {
-	margin-left: -10px;
-	margin-right: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .pd-15 {
-	padding-left: 15px;
-	padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .pd-10 {
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .mb-15 {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .mb-20 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .mt-15 {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 .mt-20 {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 .text-center {
     text-align: center;
 }
 .w-100 {
-	width: 100%;
+    width: 100%;
 }
 .w-10, .w-15, .w-16, .w-20, .w-25, .w-30, .w-33, .w-35 ,.w-40, .w-50, .w-60, .w-75, .w-80, .w-85, .w-90, .w-100 {
-	float:left
+    float:left
 }
 .form-title {
     margin-bottom: 1.5rem;
@@ -238,7 +238,7 @@ span.label {
     width: 100%;
     left: 0;
 }
-input.checkbox,input.radio {
+input.checkbox, input.radio {
     position: relative;
     box-sizing: border-box;
     padding: 0;
