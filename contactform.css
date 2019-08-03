@@ -201,6 +201,30 @@
 .checktoggle:checked+label {
     background-color: rgb(208, 225, 252);
 }
+form.blue a, form.blue a:hover {
+    color: #4285f4;
+}
+form.light-blue a, form.light-blue a:hover {
+    color: #03a9f4;
+}
+form.indigo-blue a, form.indigo-blue a:hover {
+    color: #3f51b5;
+}
+form.green a, form.green a:hover{
+    color: #4caf50;
+}
+form.purple a, form.purple a:hover {
+    color: #673ab7;
+}
+form.orange a, form.orange a:hover {
+    color: #ff9800;
+}
+form.red a {
+    color: #db4437;
+}
+form.orange-red a, form.orange-red a:hover {
+    color: #ff5722;
+}
 form.blue .bar::before, form.blue .checkbox:checked:before, form.blue .radio:checked:after, form.blue .checktoggle:checked:before {
     background-color: #4285f4;
 }
