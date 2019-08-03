@@ -351,47 +351,6 @@ input.checkbox,input.radio {
     background-color: rgb(208, 225, 252);
 }
 /* select-dropdown */
-.select-dropdown::before {
-    position: absolute;
-    bottom: 3px;
-    right: 0;
-    content: url(https://vietbloggerdesign.github.io/images/icon-down.png);
-}
-.select-content {
-    position: absolute;
-    top: 0;
-    background: #fff;
-    border: 1px solid #ddd;
-    margin: 0 !important;
-    z-index: 7;
-    width: 100%;
-    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-}
-.select-content li {
-    font-size: 15px;
-    display: block;
-    list-style-type: none;
-}
-.select-content>li {
-    background-color: #f7f7f7;
-    pointer-events: none;
-}
-.select-content>ul {
-    margin: 0 !important;
-    max-height: 300px;
-    overflow: hidden;
-    overflow-y: auto;
-}
-.select-content>li,.select-content li {
-    padding: 8px 15px;
-}
-.select-content>ul>li.active {
-    background-color: #E4F0F6;
-}
-.select-content>ul>li:hover {
-    background-color: #fff9e7;
-}
 .arrow-down {
 	position: relative;
 }
@@ -404,11 +363,11 @@ input.checkbox,input.radio {
 }
 .input.input-dropdown+.arrow-down::before {
     top: 50%;
-	right: 0;
+    right: 0;
 }
 .input-text.input-dropdown+.arrow-down::before {
     top: 45%;
-	right: 10px;
+    right: 10px;
 }
 ul.content {
     position: absolute;
