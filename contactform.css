@@ -150,11 +150,16 @@
 }
 .checkbox,.radio {
     position: relative;
-    display: table-row-group;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     width: 0;
+}
+.checkbox {
+    display: table;
+}
+.radio {
+    display: table-row-group;
 }
 .checkbox:before {
     content: "";
