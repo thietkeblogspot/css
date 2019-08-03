@@ -58,6 +58,27 @@
     -webkit-transition: all 0.28s ease;
     transition: all 0.28s ease;
 }
+.form-group input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.form-group input:focus:-moz-placeholder {
+	color: transparent;
+}
+.form-group input:focus::-moz-placeholder {
+	color: transparent;
+}
+.form-group textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.form-group textarea:focus:-moz-placeholder {
+	color: transparent;
+}
+.form-group textarea:focus::-moz-placeholder {
+	color: transparent;
+}
+.form-group textarea:focus:-ms-input-placeholder {
+	color: transparent;
+}
 .form-group input::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.38);
 }
@@ -81,6 +102,30 @@
 }
 .form-group textarea:-ms-input-placeholder {
     color: rgba(0, 0, 0, 0.38);
+}
+.form-group input[type=date]::-webkit-clear-button {
+    display: none;
+}
+.form-group input[type=date]::-webkit-inner-spin-button { 
+    display: none;
+}
+.form-group input[type=date]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    outline: 0;
+    color: #333;
+    font-size: 11px;
+}
+.form-group input[type=date]::-webkit-datetime-edit-text {
+	color: #333;
+}
+.form-group input[type=date]::-webkit-datetime-edit-month-field { 
+	color: #333;
+}
+.form-group input[type=date]::-webkit-datetime-edit-day-field {
+	color: #333;
+}
+.form-group input[type=date]::-webkit-datetime-edit-year-field {
+	color: #333;
 }
 .form-group .input {
     height: 1.9rem;
