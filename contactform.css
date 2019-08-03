@@ -671,7 +671,7 @@ form.orange-red .input-text:not(.input-dropdown):focus {
     .form-group.half {
         width: 50%;
     }
-    .checkbox, .radio, .select-dropdown, .select-content li, .checktoggle:before, .checktoggle+label, .theme-button, .input-dropdown,.arrow-down,.content li {
+    .checkbox, .radio, .checktoggle:before, .checktoggle+label, .input-dropdown, .arrow-down, ul.content li, .theme-button {
         cursor: pointer;
     }
 }
