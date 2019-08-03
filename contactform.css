@@ -133,7 +133,7 @@ span.label {
     display: flex;
 }
 .input-group.checked {
-	line-height: normal;
+    line-height: normal;
 }
 /* input[style 2] */
 .input-text {
