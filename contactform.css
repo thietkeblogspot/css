@@ -9,7 +9,7 @@
 
 .form-title {
     display: inline-block;
-    color: #111;
+    color: #333;
     font-size: 20px;
     line-height: 135%;
     word-break: break-word;
@@ -141,7 +141,7 @@
     resize: none;
 }
 .form-group .input:focus,.form-group textarea:focus {
-    color: #111;
+    color: #333;
 }
 .form-group .input:focus ~ .bar::before,.form-group textarea:focus ~ .bar::before {
     width: 100%;
@@ -351,7 +351,7 @@ form.orange-red .checkbox:checked:before, form.orange-red .radio:checked:before 
 }
 .select-content>ul {
     margin: 0 !important;
-    height: 300px;
+    max-height: 300px;
     overflow: hidden;
     overflow-y: auto;
 }
