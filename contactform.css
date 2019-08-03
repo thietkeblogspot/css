@@ -158,9 +158,9 @@ span.label {
     padding: 0 25px 0 15px;
 }
 .input-text:not(.input-dropdown):focus {
-	outline: none;
+    outline: none;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
 }
 .form-group input::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.38);
@@ -187,25 +187,25 @@ span.label {
     color: rgba(0, 0, 0, 0.38);
 }
 .form-group input:focus::-webkit-input-placeholder {
-	color: transparent;
+    color: transparent;
 }
 .form-group input:focus:-moz-placeholder {
-	color: transparent;
+    color: transparent;
 }
 .form-group input:focus::-moz-placeholder {
-	color: transparent;
+    color: transparent;
 }
 .form-group textarea:focus::-webkit-input-placeholder {
-	color: transparent;
+    color: transparent;
 }
 .form-group textarea:focus:-moz-placeholder {
-	color: transparent;
+    color: transparent;
 }
 .form-group textarea:focus::-moz-placeholder {
-	color: transparent;
+     color: transparent;
 }
 .form-group textarea:focus:-ms-input-placeholder {
-	color: transparent;
+     color: transparent;
 }
 .form-group input[type=date]::-webkit-clear-button {
     display: none;
@@ -220,16 +220,16 @@ span.label {
     font-size: 11px;
 }
 .form-group input[type=date]::-webkit-datetime-edit-text {
-	color: #333;
+    color: #333;
 }
 .form-group input[type=date]::-webkit-datetime-edit-month-field { 
-	color: #333;
+    color: #333;
 }
 .form-group input[type=date]::-webkit-datetime-edit-day-field {
-	color: #333;
+    color: #333;
 }
 .form-group input[type=date]::-webkit-datetime-edit-year-field {
-	color: #333;
+    color: #333;
 }
 .form-group input:focus,.form-group textarea:focus {
     color: #333;
@@ -352,7 +352,7 @@ input.checkbox, input.radio {
 }
 /* select-dropdown */
 .arrow-down {
-	position: relative;
+    position: relative;
 }
 .arrow-down::before {
     position: absolute;
