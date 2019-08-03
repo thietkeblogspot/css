@@ -38,6 +38,7 @@
 }
 .form-group .bar {
     position: relative;
+    width: 100%;
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.12);
     display: block;
 }
