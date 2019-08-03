@@ -593,7 +593,7 @@ form.orange-red .input-text:not(.input-dropdown):focus {
     height: 30px;
 }
 .success:before {
-    content: url(https://vietbloggerdesign.github.io/images/icon-check.png);
+    content: url(/images/icon-check.png);
 }
 .processing:after,.success:after {
     margin-top: 35px;
