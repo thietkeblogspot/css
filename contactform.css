@@ -269,7 +269,7 @@ form.purple a, form.purple a:hover {
 form.orange a, form.orange a:hover {
     color: #ff9800;
 }
-form.red a {
+form.red a, form.red a:hover {
     color: #db4437;
 }
 form.orange-red a, form.orange-red a:hover {
