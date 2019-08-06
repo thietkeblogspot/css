@@ -207,6 +207,9 @@ span.label {
 .form-group textarea:focus:-ms-input-placeholder {
      color: transparent;
 }
+.form-group input[type=search]::-webkit-search-cancel-button {
+    display: none;
+}
 .form-group input[type=date]::-webkit-clear-button {
     display: none;
 }
@@ -371,13 +374,21 @@ input.checkbox, input.radio {
 }
 ul.content {
     position: absolute;
-    top: 34px;
     background-color: #fff;
     margin: 0!important;
     z-index: 7;
     overflow: hidden;
     -webkit-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
     box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
+}
+.input-dropdown+.arrow-down+ul.content{
+    top: 34px;
+}
+.input-text.focus+ul.content{
+    top: 36px;
+}
+.input-title+.input-text.focus+ul.content{
+    top: 71px;
 }
 .input-group:not(.pd-10):not(.pd-15) ul.content {
     width: 100%;
@@ -583,17 +594,54 @@ form.orange-red .input-text:not(.input-dropdown):focus {
     top: calc(50% - 15px);
     left: calc(50% - 15px);
     content: "";
-    border-top: 3px solid #33b5e5 !important;
-    border-right: 3px solid #33b5e5 !important;
-    border-bottom: 3px solid #33b5e5 !important;
     border-left: 3px solid #fff;
     animation: spin .6s infinite linear;
     border-radius: 50%;
     width: 30px;
     height: 30px;
 }
+form.blue .processing:before {
+    border-top: 3px solid #4285f4;
+    border-right: 3px solid #4285f4;
+    border-bottom: 3px solid #4285f4;
+}
+form.light-blue .processing:before {
+    border-top: 3px solid #03a9f4;
+    border-right: 3px solid #03a9f4;
+    border-bottom: 3px solid #03a9f4;
+}
+form.indigo-blue .processing:before {
+    border-top: 3px solid #3f51b5;
+    border-right: 3px solid #3f51b5;
+    border-bottom: 3px solid #3f51b5;
+}
+form.green .processing:before {
+    border-top: 3px solid #4caf50;
+    border-right: 3px solid #4caf50;
+    border-bottom: 3px solid #4caf50;
+}
+form.purple .processing:before {
+    border-top: 3px solid #673ab7;
+    border-right: 3px solid #673ab7;
+    border-bottom: 3px solid #673ab7;
+}
+form.orange .processing:before {
+    border-top: 3px solid #ff9800;
+    border-right: 3px solid #ff9800;
+    border-bottom: 3px solid #ff9800;
+}
+form.red .processing:before {
+    border-top: 3px solid #db4437;
+    border-right: 3px solid #db4437;
+    border-bottom: 3px solid #db4437;
+}
+form.orange-red .processing:before {
+    border-top: 3px solid #ff5722;
+    border-right: 3px solid #ff5722;
+    border-bottom: 3px solid #ff5722;
+}
 .success:before {
-    content: url(/images/icon-check.png);
+    content: url(https://thietkeblogspot.github.io/images/icon-check.png);
 }
 .processing:after,.success:after {
     margin-top: 35px;
@@ -671,7 +719,7 @@ form.orange-red .input-text:not(.input-dropdown):focus {
     .form-group.half {
         width: 50%;
     }
-    .checkbox, .radio, .checktoggle:before, .checktoggle+label, .input-dropdown, .arrow-down, ul.content li, .theme-button {
+    .checkbox, .radio, .checktoggle:before, .checktoggle+label, .arrow-down, ul.content li, .theme-button {
         cursor: pointer;
     }
 }
@@ -699,7 +747,7 @@ form.orange-red .input-text:not(.input-dropdown):focus {
 @media (min-width: 321px) and (max-width: 414px) {
     .w-10{width: 20%;}
     .w-15,.w-16 {width: 25%;}
-    .w-20,.w-25,.w-30,.w-33,.w-40,.w-35, .w-40 {width: 50%;}
+    .w-20,.w-25,.w-30,.w-33,.w-35, .w-40 {width: 50%;}
 }
 @media (max-width: 414px) {
     .w-50,.w-60,.w-70,.w-75,.w-80,.w-85,.w-90 {width: 100%;}
